@@ -59,3 +59,13 @@ Pordemos também rodar mais de uma promessa ao mesmo tempo, utilizando o comando
 ## Axios
 Para facilitar, podemos utilizar a biblioteca Axios. Ela já existe nos navegadores mas precisa da instalação para utilização no Node. Ele facilita o processo de promessas.
 <img src="axios.png">
+<br><br>
+
+## Async / Await
+Esses métodos são utilizados para substituir o .then, .catch e o .finally. A premissa é passar uma promessa para uma function async, que ira retornar semelhante ao que viemos estudando, segue o primeiro exemplo sem async, e o segundo com o async e await:
+<img src="async1.png"><img src="async.png">
+<br><br>
+Dessa maneira, podemos otimizar o código e torná-lo mais seguro, prático e de fácil entendimento. Abaixo segue um exemplo (já mostrado anteriormente) otimizado com async / await:
+<br>
+P.S.: O código comentado é o código sem otimização
+<img src="async3.png">
